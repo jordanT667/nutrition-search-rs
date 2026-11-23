@@ -80,6 +80,9 @@ cd nutrition-search-rs && cargo build --release
 `cargo test` runs:
 
 - unit tests on folding, tokens, the IDF floor and the explanations;
+- `tests/search.rs`: search and evaluation behaviour on a 3-passage corpus (top-k cut, ties kept in
+  document order, repeated and unknown query words, explanations, hit@k and MRR with unanswerable
+  questions left out);
 - `tests/parity.rs`: the scores on a 3-passage corpus must match those exported from Python
   (`tests/fixtures/small.json`, runs in CI), and, when the real corpus and `target/python_scores.json`
   are present (`python tools/reference.py`), the scores of all 50 questions on all 151 passages.
