@@ -1,0 +1,15 @@
+nutrisearch: find the pages of the French dietary guidelines (Santé publique France, 2019) that answer a question.
+
+Usage:
+  nutrisearch "combien de poisson par semaine ?"   one question
+  nutrisearch                                      interactive mode (empty line to quit)
+  nutrisearch eval                                 hit@1/3/5/8 and MRR on the 40 answerable questions
+  nutrisearch bench                                index build time and queries per second
+
+Options:
+  -k N              number of passages to show (default 5)
+  --passages PATH   passages.json built by nutrition-rag
+                    (default ../nutrition-rag/data/processed/passages.json, or $NUTRISEARCH_PASSAGES)
+  --questions PATH  evaluation questions (default eval/questions.jsonl)
+  --json            print the hits as JSON
+  NO_COLOR=1        plain output

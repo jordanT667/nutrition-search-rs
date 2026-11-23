@@ -1,0 +1,98 @@
+{
+ "passages": [
+  {
+   "id": "spf2019-p34-0",
+   "doc": "spf2019",
+   "page": 34,
+   "text": "Deux fois par semaine du poisson, dont un poisson gras (sardines, maquereau, hareng, saumon)."
+  },
+  {
+   "id": "spf2019-p36-0",
+   "doc": "spf2019",
+   "page": 36,
+   "text": "Limiter la charcuterie à 150 g par semaine, environ 3 tranches de jambon blanc."
+  },
+  {
+   "id": "spf2019-p35-0",
+   "doc": "spf2019",
+   "page": 35,
+   "text": "L'eau est la seule boisson recommandée. Les sodas, même light, doivent être limités."
+  }
+ ],
+ "queries": [
+  {
+   "query": "combien de tranches de jambon ?",
+   "tokens": [
+    "tranche",
+    "jambon"
+   ],
+   "scores": [
+    0.0,
+    1.1075845300346714,
+    0.0
+   ]
+  },
+  {
+   "query": "poisson gras sardines",
+   "tokens": [
+    "poisson",
+    "gras",
+    "sardine"
+   ],
+   "scores": [
+    1.66071525687706,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "query": "Quelle boisson ? Les sodas light",
+   "tokens": [
+    "boisson",
+    "soda",
+    "light"
+   ],
+   "scores": [
+    0.0,
+    0.0,
+    1.5090604165582748
+   ]
+  },
+  {
+   "query": "semaine",
+   "tokens": [
+    "semaine"
+   ],
+   "scores": [
+    0.11133615236602429,
+    0.12819265393919804,
+    0.0
+   ]
+  },
+  {
+   "query": "poisson poisson",
+   "tokens": [
+    "poisson",
+    "poisson"
+   ],
+   "scores": [
+    1.39754180086922,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "query": "œufs et crème brûlée",
+   "tokens": [
+    "oeuf",
+    "creme",
+    "brulee"
+   ],
+   "scores": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ ]
+}

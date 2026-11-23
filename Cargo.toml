@@ -1,0 +1,15 @@
+[package]
+name = "nutrisearch"
+version = "0.1.0"
+edition = "2021"
+description = "BM25 search over the French dietary guidelines, written from scratch in Rust and checked against the Python reference"
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+unicode-normalization = "0.1"
+
+[profile.release]
+lto = true
+codegen-units = 1
